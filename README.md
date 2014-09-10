@@ -24,4 +24,4 @@ browser.Products({id : [2,6,18], fields : ['id', 'price', 'item_name']}, functio
 ```
 
 ## Response
-For listing calls (where no id is supplied), the response from a call will have a `count' property and an entity property. The entity is an array of all the returned results. This property is named after the entity call that was made (i.e. a call to .Products will have a products property whereas a call to .Categories will have a categories property). If an id is provided and a result is found, that entity will be the response.
+For listing calls (where no id is supplied), the response from a call will have a `count` property and an entity property. The entity is an array of all the returned results. This property is named after the entity call that was made (i.e. a call to .Products will have a products property whereas a call to .Categories will have a categories property). If an id is provided and a result is found, that entity will be the response.
